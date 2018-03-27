@@ -3,6 +3,7 @@
 // Copyright (c) 2017 GitHub, Inc. All rights reserved.
 //
 
+import Foundation
 import Result
 import libgit2
 

@@ -9,6 +9,15 @@
           "revision": "7477584259bfce2560a19e06ad9f71db441fff11",
           "version": "3.2.4"
         }
+      },
+      {
+        "package": "libgit2",
+        "repositoryURL": "/Users/alex/Developer/Clibgit2",
+        "state": {
+          "branch": null,
+          "revision": "b78f18187bef3b6b13a94e3fc39e41b3c496686a",
+          "version": "1.0.2"
+        }
       }
     ]
   },

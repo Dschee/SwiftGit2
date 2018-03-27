@@ -176,6 +176,8 @@ final public class Repository {
 	///
 	/// The Repository assumes ownership of the `git_repository` object.
 	public init(_ pointer: OpaquePointer) {
+		SwiftGit2Init
+		
 		self.pointer = pointer
 
 		let path = git_repository_workdir(pointer)
@@ -476,7 +478,7 @@ final public class Repository {
 		guard result == GIT_OK.rawValue else {
 			return Result.failure(NSError(gitError: result, pointOfFailure: "git_repository_set_head"))
 		}
-		return Result.success()
+		return Result.success(())
 	}
 
 	/// Set HEAD to the given reference.
@@ -488,7 +490,7 @@ final public class Repository {
 		guard result == GIT_OK.rawValue else {
 			return Result.failure(NSError(gitError: result, pointOfFailure: "git_repository_set_head"))
 		}
-		return Result.success()
+		return Result.success(())
 	}
 
 	/// Check out HEAD.
@@ -504,7 +506,7 @@ final public class Repository {
 			return Result.failure(NSError(gitError: result, pointOfFailure: "git_checkout_head"))
 		}
 
-		return Result.success()
+		return Result.success(())
 	}
 
 	/// Check out the given OID.

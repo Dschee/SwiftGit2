@@ -9,6 +9,6 @@
 import libgit2
 
 // swiftlint:disable:next identifier_name
-static func SwiftGit2Init(_: Void) {
+let SwiftGit2Init: () = {
     git_libgit2_init()
-}
+}()
