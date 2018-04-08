@@ -81,6 +81,8 @@
 		DA5023A01A969F1A004175D7 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA50239F1A969F1A004175D7 /* Nimble.framework */; };
 		DA5914761A94579000AED74C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5914751A94579000AED74C /* Errors.swift */; };
 		DAC8143D1A99749D0063D88C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC8143C1A99749D0063D88C /* Quick.framework */; };
+		FA6088802079D53500BC1EB7 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60887F2079D53500BC1EB7 /* URL+Extensions.swift */; };
+		FA6088812079D53500BC1EB7 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60887F2079D53500BC1EB7 /* URL+Extensions.swift */; };
 		FA7983F2206B6F6D0074C69A /* SwiftGit2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463607D81F9EC37F00704FEA /* SwiftGit2.swift */; };
 /* End PBXBuildFile section */
 
@@ -191,6 +193,7 @@
 		DA50239F1A969F1A004175D7 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5914751A94579000AED74C /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		DAC8143C1A99749D0063D88C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftGit2-ezqqkevntxbroughwcioyxqriijk/Build/Products/Debug/Quick.framework"; sourceTree = "<group>"; };
+		FA60887F2079D53500BC1EB7 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
 		FA798327206A27CF0074C69A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -317,6 +320,7 @@
 				BECB5F691A56F19900999413 /* References.swift */,
 				BECB5F6D1A57284700999413 /* Remotes.swift */,
 				25499A996CA7BD416620A397 /* CommitIterator.swift */,
+				FA60887F2079D53500BC1EB7 /* URL+Extensions.swift */,
 			);
 			path = SwiftGit2;
 			sourceTree = "<group>";
@@ -742,6 +746,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621E66A01C72958800A0F352 /* OID.swift in Sources */,
+				FA6088812079D53500BC1EB7 /* URL+Extensions.swift in Sources */,
 				621E66A11C72958800A0F352 /* Remotes.swift in Sources */,
 				621E66A21C72958800A0F352 /* CheckoutStrategy.swift in Sources */,
 				622726351C84E52500C53D17 /* Credentials.swift in Sources */,
@@ -776,6 +781,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE70B3E51A1ACB1A002C3F4E /* OID.swift in Sources */,
+				FA6088802079D53500BC1EB7 /* URL+Extensions.swift in Sources */,
 				BECB5F6E1A57284700999413 /* Remotes.swift in Sources */,
 				BE276B291ACCD3CF00D6DAD7 /* CheckoutStrategy.swift in Sources */,
 				622726341C84E52500C53D17 /* Credentials.swift in Sources */,

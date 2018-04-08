@@ -160,7 +160,7 @@ final public class Repository {
 				checkoutOptions: checkoutOptions(strategy: checkoutStrategy, progress: checkoutProgress))
 
 			var pointer: OpaquePointer? = nil
-			let remoteURLString = (remoteURL as NSURL).isFileReferenceURL() ? remoteURL.path : remoteURL.absoluteString
+			let remoteURLString = remoteURL.isFileReferenceURL() ? remoteURL.path : remoteURL.absoluteString
 			let result = localURL.withUnsafeFileSystemRepresentation { localPath in
 				git_clone(&pointer, remoteURLString, localPath, &options)
 			}
